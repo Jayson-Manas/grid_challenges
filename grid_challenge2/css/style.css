@@ -49,16 +49,20 @@ hr{
 .navbar{
 border-bottom-color: white;
 background-color: black;
+text-align: center;
 
 }
 .coach{
     border: 1mm white;
 }
 img{
-    display: block;
+    /* display: block; */
     height: 120px;
     width: 120px;
     /* border-radius: 50%; */
+/* justify-content: center; */
+    padding: 10px;
+
 }
 .container_2{
     background-color: white;
