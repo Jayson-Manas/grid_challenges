@@ -17,7 +17,12 @@
 
 .container{
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns:1fr 3fr;
+}
+.container_2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
 }
 
 
@@ -53,7 +58,7 @@ img{
     display: block;
     height: 120px;
     width: 120px;
-    border-radius: 50%;
+    /* border-radius: 50%; */
 }
 .container_2{
     background-color: white;
