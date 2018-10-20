@@ -1,27 +1,32 @@
 /* ===========moblie===================== */
 @media(min-width:480px){
-
+    
 }
 /* ===========moblie===================== */
 /* ==================tablet================== */
-@media(min-width:768px){
-
+@media(min-width:600px){
+    .container{
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+    }
+    
 }
 /* ==================tablet================== */
 /* =====================desktop=================== */
 @media(min-width:900px){
-.navbar{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto auto auto auto;
 
-}
 .container{
     display: grid;
     grid-template-columns: 1fr 3fr;
 }
+
+
 }
 /* =====================desktop=================== */
+*{
+
+    
+}
 
 body{
 margin: 0;
@@ -29,18 +34,25 @@ padding: 0;
 color: white;
 
 }
-.gray{
-    color: gray;
+
+hr{
+
+        color: gray;
+    
 }
+
 .navbar{
-border: 0.3mm solid white;
+border-bottom-color: white;
 background-color: black;
 
 }
+.coach{
+    border: 1mm white;
+}
 img{
     display: block;
-    height: 300px;
-    width: 300px;
+    height: 120px;
+    width: 120px;
     border-radius: 50%;
 }
 .container_2{
